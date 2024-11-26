@@ -1,6 +1,5 @@
-// import { form } from "motion/react-client";
 import { useState } from "react";
-import Animation from '@/app/components/Animation';
+// import Animation from '@/app/components/Animation';
 import GenerateResume from '@/app/components/GenerateResume';
 
 
@@ -55,7 +54,6 @@ const ResumeForm = ({onSubmit} ) => {
         <form onSubmit={handleSubmit}>
             {/* <div> */}
             
-        <Animation delay= {0.2}>
         <div className="form-group mx-6">
         <label htmlFor="name"> Name:       </label>
             <input
@@ -66,11 +64,7 @@ const ResumeForm = ({onSubmit} ) => {
         placeholder="Name:"
         />
         </div>
-        </Animation>
-        {/* </div> */}
-        {/* <div> */}
         
-        <Animation delay = {0.4}>
         <div className="form-group mx-6">
         <label htmlFor="email"> Email:   </label>
         <input 
@@ -81,10 +75,7 @@ const ResumeForm = ({onSubmit} ) => {
         placeholder="Email:"
         />
         </div>
-        {/* </div> */}
-        </Animation>
-        
-        <Animation delay = {0.6}>
+                       
         <div className="form-group mx-6">
         <label htmlFor="education"> Education:   </label>
         <input
@@ -95,9 +86,7 @@ const ResumeForm = ({onSubmit} ) => {
         placeholder="Education:"
         />
         </div>
-        </Animation>
-        {/* <div> */}
-        <Animation delay = {0.8}>
+                 
         <div className="form-group mx-6">
         <label htmlFor="skills"> Skills:   </label>
         <textarea 
@@ -107,9 +96,7 @@ const ResumeForm = ({onSubmit} ) => {
         placeholder="Skills:"
         />
         </div>
-        </Animation>
-        {/* <div> */}
-        <Animation delay = {0.8}>
+               
         <div className="form-group mx-6">
         <label htmlFor="experience">Experience:   </label>
         <textarea
@@ -119,7 +106,6 @@ const ResumeForm = ({onSubmit} ) => {
         placeholder="Work Experience:"
         />
         </div>
-        </Animation>
         
         <button type="submit">Generate Resume</button>
          
