@@ -1,14 +1,14 @@
 import { motion } from 'framer-motion'
-//import PropTypes from 'prop-types';
-//import { children } from 'react';
+// import PropTypes from 'prop-types';
+// import { Children } from 'react';
 
-const Animation = ({children, delay}) =>(
+const Animation = ({Children, delay}) =>(
     <motion.div
     initial={{opacity:5}}
     animate={{opacity:1}}
     transition={{ delay, duration:0.5 }}
     >
-        {children}
+        {Children}
         </motion.div>
     
 );

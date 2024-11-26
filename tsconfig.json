@@ -21,6 +21,6 @@
       "@/*": ["./src/*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "src/app/components/Animation.jsx", "src/app/components/ResumeForm.jsx", "src/app/components/ResumePreview.jsx", "src/app/page.tsx"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "src/app/components/Animation.jsx", "src/app/components/ResumeForm.jsx", "src/app/components/ResumePreview.tsx", "src/app/page.tsx"],
   "exclude": ["node_modules"]
 }

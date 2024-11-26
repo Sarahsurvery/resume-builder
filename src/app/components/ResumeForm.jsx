@@ -1,7 +1,7 @@
 // import { form } from "motion/react-client";
 import { useState } from "react";
 import Animation from '@/app/components/Animation';
-import generateResume from '@/app/components/GenerateResume';
+import GenerateResume from '@/app/components/GenerateResume';
 
 
 const ResumeForm = ({onSubmit} ) => {

@@ -1,8 +1,7 @@
 "use client";
 
-import Image from "next/image";
+
 import { useState } from "react";
-// import { jsPDF } from 'jspdf';
 import ResumeForm from "./components/ResumeForm";
 import ResumePreview from "./components/ResumePreview";
 // import ResumeContent from "./components/ResumeContent";

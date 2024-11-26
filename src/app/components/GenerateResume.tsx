@@ -1,6 +1,6 @@
 import { jsPDF } from 'jspdf';
 
-const generateResume = (formData) => {
+const generateResume = (formData: { name: any; email: any; education: any; skills: any; experience: any; }) => {
   const doc = new jsPDF();
 
   doc.setFontSize(16);
