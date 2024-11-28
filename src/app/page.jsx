@@ -1,14 +1,15 @@
 "use client";
 import { useState } from "react";
 import ResumeForm from "@/app/components/ResumeForm";
+import generateResume from "./components/GenerateResume";
 
 export default function Home () {
 
 
   const [ FormData, setResumeData] = useState(null);
-  const handleFormSubmit = (FormData:any) => {
+  const handleFormSubmit = (data) => {
     console.log('FormData received in parent:' ,FormData)
-    setResumeData(FormData);
+    setResumeData(data);
   };
     return(
       <div>

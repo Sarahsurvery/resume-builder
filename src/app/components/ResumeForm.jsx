@@ -1,6 +1,6 @@
 import { useState } from "react";
 // import Animation from '@/app/components/Animation';
-import GenerateResume from '@/app/components/GenerateResume';
+// import GenerateResume from '@/app/components/GenerateResume';
 
 
 const ResumeForm = ({onSubmit} ) => {
