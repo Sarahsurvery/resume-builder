@@ -1,6 +1,6 @@
-import { jsPDF } from 'jspdf';
+// import { jsPDF } from 'jspdf';
 
-const generateResume = (formData) => {
+const GenerateResume = (formData) => {
   const doc = new jsPDF();
 
   doc.setFontSize(16);
@@ -26,4 +26,4 @@ const generateResume = (formData) => {
   doc.save(`${formData.name}_resume.pdf`);
 };
 
-export default generateResume;
+export default GenerateResume;
