@@ -1,7 +1,6 @@
 "use client";
 import { useState } from "react";
-import ResumeForm from "./components/ResumeForm";
-import generateResume from "./components/GenerateResume";
+import ResumeForm from "@/app/components/ResumeForm";
 
 export default function Home () {
 
