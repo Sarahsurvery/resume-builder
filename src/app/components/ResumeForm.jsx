@@ -38,7 +38,7 @@ const ResumeForm = ({onSubmit} ) => {
     const renderResume = () => {
     return (
         <div className="resume">
-          <h2> "My Resume" </h2>
+          <h2> My Resume </h2>
           <p><strong>Name:</strong> {FormData.name}</p>
           <p><strong>Email:</strong> {FormData.email}</p>
           <p><strong>Skills:</strong> {FormData.skills}</p>

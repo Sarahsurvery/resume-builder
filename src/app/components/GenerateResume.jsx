@@ -1,4 +1,4 @@
-// import { jsPDF } from 'jspdf';
+import { jsPDF } from 'jspdf';
 
 const GenerateResume = (formData) => {
   const doc = new jsPDF();
