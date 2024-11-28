@@ -5,6 +5,7 @@ import generateResume from "./components/GenerateResume";
 
 export default function Home () {
 
+
   const [ FormData, setResumeData] = useState(null);
   const handleFormSubmit = (FormData:any) => {
     console.log('FormData received in parent:' ,FormData)
